@@ -211,7 +211,7 @@ func (kc *Client) loadChallengePage(submitURL string, referer string, authForm u
 	}
 
 	secondFactorHeader := "This extra step shows it’s really you trying to sign in"
-	secondFactorHeader2 := "This extra step shows that it’s really you trying to sign in"
+	secondFactorHeader2 := "To sign in to your Google Account, choose a task from the list below."
 	secondFactorHeaderJp := "2 段階認証プロセス"
 
 	// have we been asked for 2-Step Verification
